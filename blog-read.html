@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <link rel="stylesheet" href="assets/style/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="assets/style/images/logo.svg"/>
+        </div>
+        <nav class="nav-menu">
+            <ul>
+                <li><a href="#" id="close"><i class="fa-solid fa-xmark"></i></a></li>
+                <li><a href="index.htm">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="blog.html" class="active">Blog</a></li>
+                <li><a href="courses.html">Courses</a></li>
+                <li><a href="contact.html" id="contact">Contact</a></li>
+                <li class="Join"><a href="#">join for Free</a></li>
+            </ul>
+        </nav>
+        <img src="assets/style/images/menu.png" alt="menu" id="img-menu">
+    </header>
+   
+    <section class="blog">
+       <div class="blog-info blog-rad">
+          <img src="assets/style/images/b1.jpg" alt="" srcset="">
+          <h4>Learn Web Developpement on essay way</h4>
+          <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta assumenda reiciendis itaque quos libero incidunt vero nihil ipsum? Facere, 
+              beatae ex? Quam repellendus nulla facere quae neque quas delectus ut.
+              <br><br>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus cum mollitia, ipsa est inventore nihil earum labore non cupiditate aliquid quisquam laborum officiis ab facilis voluptate! Inventore tempore rerum molestiae!
+              Cupiditate unde quaerat ipsum perferendis ipsam quisquam quidem, vel hic saepe minima consectetur. Voluptatem explicabo dolorum veniam laudantium earum totam eos perspiciatis aspernatur pariatur. Consectetur enim laborum itaque. Officiis, sit!
+              <br><br>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatem veniam vero ut sint quam delectus illum ad nisi possimus officiis aliquam accusamus, nobis ea repellendus dolores animi rem modi architecto.
+              Veritatis tenetur beatae, impedit alias officiis veniam, quibusdam fuga neque provident, vero quasi. Quisquam aperiam adipisci ea illum a eligendi hic quibusdam quia eaque laborum impedit, quae quis ratione provident!
+              Consequatur nostrum magnam minus sunt. Iusto rerum incidunt veritatis fugiat iure, cumque corrupti repellendus obcaecati eum sequi, pariatur maiores minus voluptatibus quo natus! Voluptatum, debitis minima labore dolorum non dolore!
+              <br><br>
+
+          </p>
+          <a href="#">Next</a>
+
+       </div>
+        
+    </section>
+    
+   
+<footer>
+    <div class="total-menu-footer">
+        <div class="products">
+            <h3>Top Products</h3>
+            <ul>
+                <li>Mange Repultation</li>
+                <li>Power Tols</li>
+                <li>Mange Products</li>
+                <li>Marketing Service</li>
+            </ul>
+            
+        </div>
+        <div class="products">
+            <h3>Quick links</h3>
+            <ul>
+                <li>Jobs</li>
+                <li>Brands Assets</li>
+                <li>Investor Realisation</li>
+                <li>Terms Et Service</li>
+            </ul>
+            
+        </div>
+        <div class="products">
+            <h3>Features</h3>
+            <ul>
+                <li>Mange Repultation</li>
+                <li>Power Tols</li>
+                <li>Mange Website</li>
+                <li>Marketing Service</li>
+            </ul>
+            
+        </div>
+        <div class="products">
+            <h3>Resources</h3>
+            <ul>
+                <li>Guides</li>
+                <li>Research</li>
+                <li>Experts</li>
+                <li>Marketing Service</li>
+            </ul>
+            
+        </div>
+        <div class="products">
+            <h3>Newsletter</h3>
+            <ul>
+                <li>lorem ipsum compte sur moi avant
+                </li>
+                <li id="newsletter">
+                    <input type="text" placeholder="text placeholder" id="newsletter1">
+                    <input type="submit" value="SUBSCRIBE" id="subscribe">
+
+                </li>
+            </ul>
+            
+        </div>
+    </diV>
+    <div class="copyright">
+        <p>Copyright &#169; All rights reserved this template</p>
+        <div class="font-community">
+            <i class="fa-brands fa-facebook-f"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-linkedin-in"></i>
+
+        </div>
+    </div>
+</footer>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js" integrity="sha512-STof4xm1wgkfm7heWqFJVn58Hm3EtS31XFaagaa8VMReCXAkQnJZ+jEy8PCC/iT18dFy95WcExNHFTqLyp72eQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script>
+    $("#close").click(function() {
+        console.log("demain");
+        $(".nav-menu").removeClass("active")  
+        $("#img-menu").css("display","initial")
+        })
+        $("#img-menu").click(function() {
+            $(".nav-menu").addClass("active") 
+             $("#img-menu").css("display","none")
+
+        })
+</script>
+</body>
+</html>

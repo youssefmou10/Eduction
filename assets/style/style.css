@@ -222,6 +222,103 @@ margin-bottom: 7px;
   flex-wrap: wrap;
   padding: 10px 20px;
 }
+/* courses details  */
+#details {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 30px 60px;
+  width:100%;
+}
+.left-detail {
+  width: 60%;
+}
+.left-detail img {
+  width: 100%;
+  border-radius: 5px;
+  object-fit: cover;
+}
+.info-detail {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.course-overview p{
+  margin-bottom: 30px;
+}
+.course-overview h3{
+  margin-bottom: 20px;
+}
+span {
+  font-size: 1rem;
+  background-color: #6e6eaa;
+  padding: 10px 30px;
+  height: 50px;
+  color: #fff;
+  margin: 30px 0px 0px 100px;
+  border-radius: 5px;
+ 
+}
+.etoile p{
+  
+    padding-top: 5px;    
+    color: #ccc;
+
+}
+.learn {
+  line-height: 40px;
+}
+.fa-solid.fa-check {
+  background-color: #7575ec;
+  font-weight: 700;
+  color: white;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+.course-overview {
+  margin-bottom: 40px;
+}
+/* End courses details */
+.right-detail {
+  display: flex;
+  flex-direction: column;
+  line-height: 50px;
+  width: 30%;
+  padding-left: 50px;
+  line-height: 50px;
+  border: 1px solid white;
+  box-shadow: 2px 5px 10px #bfb7b7;
+}
+.right-detail ul{
+  padding-bottom:20px;
+}
+.right-detail ul>li{
+  display:block;
+  color: #a6a6a6;
+  font-size:20px;
+  
+}
+.right-detail h3{
+  font-size:25px;
+  font-weight:800;
+}
+.right-detail ul>li i{
+  margin-right:10px;
+  font-size:20px;
+  color: #a6a6a6;
+  font-weight:600;
+}
+.right-detail ul>li>a{
+  background-color: #5d5d95;
+  padding: 10px;
+  color: #fff;
+  font-weight: 600;
+  border-radius: 5px;
+
+  
+}
+
 /* formulaire */
 .form {
   display: flex;
@@ -509,8 +606,21 @@ footer{
   width: 70px;
   height: 70px;
 }
+.blog-info.blog-rad {
+  margin: 0 auto;
+  width: 70%;
+}
+.blog-info.blog-rad a {
+  padding: 10px;
+  background-color: #13294B;
+  color: #fff;
+  font-size: 15px;
+  padding: 10px "px";
+  padding: 10px 30px;
+}
 /* media screen */
 @media screen and (max-width:900px){
+
   body{
     overflow-x: hidden;
   }
@@ -663,8 +773,67 @@ footer{
     width: 40%;
     margin-right: 10px;
   }
+  .blog {
+    padding: 8vw 4vw;
+  }
 }
-/*  */
+/* blog */
+.blog {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 8vw;
+}
+.blog-categorie {
+  width: 30%;
+}
+.blog-info {
+  width: 60%;
+}
+.blog-info img{
+  
+    width: 100%;
+    border-radius: 10px;
+    padding-bottom: 20px;
+}
+.blog-info h3{
+  font-size: 20px;
+  font-weight: 700;
+  padding-bottom: 10px;
+
+}
+.blog-info p{
+  font-size: 15px;
+  color:#bdbcbc;
+  font-weight: 400;
+  padding-bottom: 20px;
+}
+.blog-info a{
+  padding:10px;
+  background-color: #13294B;
+  color:#fff;
+  font-size: 13px;
+}
+.blog-categorie h2{
+  font-size: 20px;
+  padding-bottom: 10px;
+}
+hr{
+  margin-bottom: 10px;
+}
+.blog-categorie a{
+  color:#bdbcbc;
+  padding-bottom: 10px;
+  line-height: 45px;
+}
+.blog-info div {
+  margin-bottom: 20px;
+}
+.blog-info.blog-rad {
+  margin: 60px auto;
+  width: 70%;
+}
+/* End Blog */
 @media screen and (min-width:200px) and (max-width:450px) {
   html,body{
     overflow-x: hidden !important;
@@ -869,4 +1038,19 @@ font-weight: 700;
   .total-menu-footer {
     padding: 60px 20px 0px 10px;
   }
+  .blog {
+    
+    flex-direction: column;
+  }
+  .blog-categorie {
+    width: 100%;
+  }
+  .blog-info.blog-rad {
+    margin: 90px auto;
+    width: 100%;
+  }
+  .blog-info {
+    width: 100%;
+  }
+  
 }
